@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(0, 0, 60);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100vh;
+  padding-left: 100px;
+}
+
+.title {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2rem;
+  color: #fff;
+}
+
+span {
+  color: rgb(64, 153, 88);
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+hr {
+  margin-top: 15px;
+}
+
+.password-box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copy {
+  background: transparent;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+
+.copy img {
+  width: 30px;
+}
+
+.password-box input {
+  background: transparent;
+  outline: none;
+  border: 0;
+  font-size: 1rem;
+  width: 400px;
+}
+
+.generator {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.generatorButton {
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 20px;
+  background: #01903f;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.generatorButton img {
+  width: 20px;
+}
+
+.generatorButton p {
+  padding-left: 10px;
+  font-family: 'Quicksand';
+  font-weight: bold;
+  color: #fff;
+}
+
+.generatorButton:active {
+  background: rgb(0, 187, 53);
+}
+
+.length {
+  background: #fff;
+  outline: none;
+  border: 0;
+  font-size: 1rem;
+  width: 150px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.checkboxes {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.checkboxes p {
+  cursor: pointer;
+}

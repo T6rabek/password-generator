@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasodifiy parol generatori</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Tasodifiy <br /><span>Parol yaratish</span></h1>
+      <hr />
+
+      <div class="password-box">
+        <input type="text" class="password" placeholder="Parol" />
+        <button class="copy">
+          <img src="./assets//copy.png" alt="Nusxalash" />
+        </button>
+      </div>
+
+      <div class="generator">
+        <button class="generatorButton">
+          <img src="/assets//generate.png" />
+          <p>Parol yaratish</p>
+        </button>
+        <input type="text" class="length" placeholder="Uzunlikni kiriting" />
+      </div>
+
+      <div class="checkboxes">
+        <p>
+          <input type="checkbox" id="uppercase" />
+          <label for="uppercase">Katta </label>
+        </p>
+        <p>
+          <input type="checkbox" id="lowercase" />
+          <label for="lowercase">Kichik </label>
+        </p>
+        <p>
+          <input type="checkbox" id="digits" />
+          <label for="digits">Raqamlar</label>
+        </p>
+        <p>
+          <input type="checkbox" id="symbols" />
+          <label for="symbols">Simvollar</label>
+        </p>
+        <p>
+          <input type="checkbox" id="all" /> <label for="all">Hammasi</label>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
