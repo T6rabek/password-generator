@@ -120,3 +120,57 @@ hr {
 .checkboxes p {
   cursor: pointer;
 }
+
+
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .password-box,
+  .generator,
+  .checkboxes {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .generatorButton {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .length {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .checkboxes p {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .password-box input {
+    width: 80%;
+  }
+
+  .generatorButton {
+    width: 150px;
+  }
+  
+  
+  .length {
+    width: 100px;
+  }
+
+  .copy img {
+    width: 25px;
+  }
+}
+
